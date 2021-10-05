@@ -54,8 +54,7 @@ If you have any doubts regarding **"How to create your first PR?"**, then checko
 
 ---
 
-## Hacktoberfest 2021 | FAQs
-   
+## Hacktoberfest 2021 | FAQs   
 
 **<details><summary>What is Open Source?</summary>**
 <br>Open source refers to source code that is publicly accessible and allows anyone to inspect, modify or learn from it. Open source projects encourage collaboration and the freedom to use the software for any purpose you wish.</details>
@@ -110,6 +109,7 @@ If you have any doubts regarding **"How to create your first PR?"**, then checko
 - [Abhinav Mukherjee](https://github.com/abhinav-193 "View Profile")
 - [Akash Chouhan](https://github.com/akashchouhan16 "View Profile")
 - [Anwesha Pati](https://github.com/innatepanda "View Profile")
+- [Arnab Chatterjee](https://github.com/arn4b "View Profile")
 - [Arnab Dan](https://github.com/arnab8335 "View Profile")
 - [Atig Purohit](https://github.com/AtigPurohit "View Profile")
 - [Ayshi Bhowmik](https://github.com/ayshi028 "View Profile")
@@ -121,14 +121,11 @@ If you have any doubts regarding **"How to create your first PR?"**, then checko
 - [Nishant Giri](https://github.com/nishant-giri "View Profile")
 - [Rakshit Agarwal](https://github.com/rakshitweb "View Profile")
 - [Rohit Jaiswal](https://github.com/king-rohit777 "View Profile")
+- [Sagar Satapathy](https://github.com/wishsagarks "View Profile")
 - [Saniya Bhargav](https://github.com/SaniyaBhargav "View Profile")
-- [Shreya Agarwal](https://github.com/shreya0204 "View Profile")
-- [Arnab Chatterjee](https://github.com/arn4b "View Profile")
-- [Eshaan Anand](https://github.com/eshaananand "View Profile")
 - [Santanu Biswas](https://github.com/SantanuxD "View Profile")
 - [Shivangi-Mohanty](https://github.com/Shivangi-27 "View Profile")
-- [SAGAR SATAPATHY](https://github.com/wishsagarks "View Profile")
-
+- [Shreya Agarwal](https://github.com/shreya0204 "View Profile")
 
 ---
    

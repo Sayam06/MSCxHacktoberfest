@@ -62,17 +62,19 @@ def resume():
 button_play = tkr.Button(musicplayer,height=3,width=5,text="Play Music",font="Cambria 14 bold", command=play, bg = 'lime green',fg="black")
 button_play.pack(fill="x")
 
-# stop button is created and command=ExitMusicPlayer(which is the function already created)
-button_stop = tkr.Button(musicplayer,height=3,width=5,text="Stop Music",font="Cambria 14 bold", command=ExitMusicPlayer, bg='red',fg="black")
-button_stop.pack(fill="x")
+
 
 # pause button is created and command=pause(which is the function already created)
 button_pause = tkr.Button(musicplayer,height=3,width=5,text="Pause Music",font="Cambria 14 bold", command=pause, bg = 'yellow',fg="black")
 button_pause.pack(fill="x")
 
 # resume button is created and command=resume(which is the function already created)
-button_resume = tkr.Button(musicplayer,height=3,width=5,text="Resume Music",font="Cambria 14 bold", command=resume, bg = 'yellow',fg="black")
-button_resume.pack(fill="x")     
+button_resume = tkr.Button(musicplayer,height=3,width=5,text="Resume Music",font="Cambria 14 bold", command=resume, bg = 'lime green',fg="black")
+button_resume.pack(fill="x")  
+
+# stop button is created and command=ExitMusicPlayer(which is the function already created)
+button_stop = tkr.Button(musicplayer,height=3,width=5,text="Stop Music",font="Cambria 14 bold", command=ExitMusicPlayer, bg='red',fg="black")
+button_stop.pack(fill="x")
 
 # this is used for displaying the song title
 var=tkr.StringVar()

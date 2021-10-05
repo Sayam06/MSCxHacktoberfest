@@ -38,18 +38,18 @@ if __name__== '__main__':
     
 
     while True:
-        if time() - init_water > water_duration:
+        if (time()+5) - init_water > water_duration:
             print("\n\nWater Drinking Time Dude.\nEnter 'drank' to stop the remainder")
             musicloop('water.mp3' , 'drank')
             init_water= time()
             detailkeeper("Drank Water")
 
-        elif time() - init_eye > eye_duration:
+        elif (time()+5)  - init_eye > eye_duration:
             print("\n\nEye Relaxing Time Dude.\nEnter 'done' to stop the remainder")
             musicloop('eye.mp3' , 'done')
             init_eye= time()
             detailkeeper("Eye Relaxed")
-        elif time() - init_exercise > exercise_duration:
+        elif (time()+5)  - init_exercise > exercise_duration:
             print("\n\nExercise Time Dude.\nEnter 'done' to stop the remainder")
             musicloop('exercise.mp3' , 'done')
             init_exercise= time()

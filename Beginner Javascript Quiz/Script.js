@@ -3,12 +3,13 @@ function login() {
   var emailtext = document.getElementById('email')
   var passtext = document.getElementById('pass')
   if (emailtext.value == "" || passtext.value == "") {
-    alert("please input all fields")
+    alert("please input all fields");
+    location.reload();
   }
-
-  localStorage.setItem("name", emailtext.value.split('@')[0].toString());
-  window.location.href = "Homepage.html";
-
+  if (emailtext.value != "" && passtext.value != "") {
+    localStorage.setItem("name", emailtext.value.split('@')[0].toString());
+    window.location.href = "Homepage.html";
+  }
 }
 const loginButton = document.getElementById('login-button');
 if (loginButton) {
