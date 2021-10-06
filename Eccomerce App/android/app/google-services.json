@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "826034758210",
+    "project_id": "skillkart-2021",
+    "storage_bucket": "skillkart-2021.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:826034758210:android:a8dab2813b1524b7ee03db",
+        "android_client_info": {
+          "package_name": "com.example.task_1_zairza"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "826034758210-mavtfp95j9d0vtco1oku1ilkqveo55d0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgYs-MtGRQ4foVGqmlUx2EPqfpIARRo2w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "826034758210-mavtfp95j9d0vtco1oku1ilkqveo55d0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

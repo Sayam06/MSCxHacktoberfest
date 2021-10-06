@@ -1,0 +1,1 @@
+const String Base_Uri = "https://skillscart.zairza.in/api";
