@@ -37,6 +37,10 @@ Further, we have provided styling for the various other classes present, such as
 
 We have also added the hover function to the class _choice_. Next, we have styled the _action-message_.
 
+We have added a background image of triangle and placed the rock , paper , scissor at the three edge of the traingle with the help of _id_ of the class _choices_ which make it looks good.
+
+We have also added 3d effect and a black color background in the _choices_ works when touched with the curser.
+
 Towards the end, we have added **green**, **red** and **gray** glows for wins, losses and draws respectively.
 
 ## JavaScript Part
