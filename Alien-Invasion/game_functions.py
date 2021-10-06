@@ -1,3 +1,4 @@
+#control settings.
 import sys
 from time import sleep
 

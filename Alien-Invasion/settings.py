@@ -1,4 +1,5 @@
 #Default Seetings are below change it according to your pc needs.
+#can also change resolution according to your Needs
 
 class Settings:
     """A class to store all settings for Alien Invasion."""

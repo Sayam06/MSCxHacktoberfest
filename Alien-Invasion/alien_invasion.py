@@ -1,5 +1,8 @@
 # import sys
 
+# Main Operation file
+#Defaukt setting are in setting.py
+
 import pygame
 
 from pygame.sprite import Group
