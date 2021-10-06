@@ -1,120 +1,123 @@
-@import url('https://fonts.googleapis.com/css2?family=Asap:wght@400;500;700&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
-    background-color: #292C34;
+body {
+  background-color: #fff;
 }
-header{
-    background: white;
-    padding: 20px;
+header {
+  background: #ff4081;
+  padding: 2em;
 }
-header > h1{
-    color: #24272E;
-    text-align: center;
-    font-family: Asap, sans-serif;
+header > h1 {
+  color: #fff;
+  font-weight: 300;
+  font-size: 2em;
+  text-align: center;
+  font-family: Poppins, sans-serif;
 }
-.score-board{
-    margin: 20px auto;
-    border: 3px solid white;
-    border-radius: 4px;
-    text-align: center;
-    width: 200px;
-    color: white;
-    font-size: 46px;
-    padding: 15px 20px;
-    box-shadow: 7px 3px 17px white;
-    font-family: Asap, sans-serif;
-    position: relative;
+.score-board {
+  margin: 20px auto;
+  border: 3px solid #ff4081;
+  border-radius: 4px;
+  text-align: center;
+  width: 200px;
+  color: black;
+  font-size: 46px;
+  padding: 15px 20px;
+  font-family: Asap, sans-serif;
+  position: relative;
 }
-.badge{
-    background: #E25840;
-    color: white;
-    font-size: 14px;
-    padding: 2px 10px;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-family: Asap, sans-serif;
+.badge {
+  background: #ff4081;
+  border: 2px solid white;
+  color: white;
+  font-size: 14px;
+  padding: 10px 15px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: poppins, sans-serif;
 }
-#user-label{
-    position: absolute;
-    top: 30px;
-    left: -25px;
+#user-label {
+  position: absolute;
+  top: 20px;
+  left: -35px;
 }
-#computer-label{
-    position: absolute;
-    top: 30px;
-    right: -30px;
+#computer-label {
+  position: absolute;
+  top: 20px;
+  right: -42px;
 }
-.result{
-    font-size: 40px;
-    color: white;
+.result {
+  font-size: 2em;
+  color: #000;
+  font-weight: 500;
 }
-.result > p{
-    text-align: center;
-    font-family: Asap, sans-serif;
-    font-weight: bold;
+.result > p {
+  text-align: center;
+  font-family: Asap, sans-serif;
+  font-weight: bold;
 }
-.choices{
-    text-align: center;
-    margin-top: 100px;
-    background-image: url("images/triangle.png");
-    background-repeat: no-repeat;
-    background-position: center;
+.choices {
+  text-align: center;
+  margin-top: 100px;
+  background-image: url("images/triangle.png");
+  background-repeat: no-repeat;
+  background-position: center;
 }
-.choice{
-   
-    display: inline-flex;
-    justify-content: center;
-    border: 4px solid white;
-    border-radius: 50%;
-    margin: 0 20px;
-    padding: 20px;
-    transition: all 0.3s ease;
+.choice {
+  display: inline-flex;
+  justify-content: center;
+  background-color: #fff;
+  border: 4px solid #ff4081;
+  border-radius: 50%;
+  margin: 0 20px;
+  padding: 20px;
+  transition: all 0.3s ease;
 }
-.choice:hover{
-    cursor: pointer;
-    background-color:black;
-    transition: all 0.25s;
-    transform: translate3d(0px , -8px , 0px);
-} 
-#p
-{
-    position: relative;
-    bottom: 45px;
-    left: 20px;
+.choice:hover {
+  cursor: pointer;
+  background-color: #ff4081;
+  border: 4px solid white;
+  transition: all 0.25s;
+  transform: translate3d(0px, -8px, 0px);
 }
-#r
-{
- position: relative;
- bottom: 45px;
- right: 40px;
+#p {
+  position: relative;
+  bottom: 45px;
+  left: 20px;
 }
-#s{
-    position: relative;
-    top: 30px;
-    left: 5px;
+#r {
+  position: relative;
+  bottom: 45px;
+  right: 40px;
 }
-#action-message{
-    text-align: center;
-    color: white;
-    font-family: Asap, sans-serif;
-    font-size: 17px;
-    font-weight: bold;
-    position: relative;
-    top: 125px;
+#s {
+  position: relative;
+  top: 30px;
+  left: 5px;
 }
-.green-glow{
-    border: 4px solid #4dcc7d;
-    box-shadow: 0 0 10px #31b43a;
+#action-message {
+  text-align: center;
+  color: white;
+  font-family: Asap, sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+  position: relative;
+  top: 125px;
 }
-.red-glow{
-    border: 4px solid #fc121b;
-    box-shadow: 0 0 10px #d01115;
+.green-glow {
+  border: 4px solid #4dcc7d;
+  box-shadow: 0 0 10px #31b43a;
 }
-.gray-glow{
-    border: 4px solid #464647;
-    box-shadow: 0 0 10px #25292b;
+.red-glow {
+  border: 4px solid #fc121b;
+  box-shadow: 0 0 10px #d01115;
+}
+.gray-glow {
+  border: 4px solid #464647;
+  box-shadow: 0 0 10px #25292b;
 }
