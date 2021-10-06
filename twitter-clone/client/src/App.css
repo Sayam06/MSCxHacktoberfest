@@ -1,0 +1,103 @@
+/* body{
+  width: 100%;
+} */
+/* .App {
+  text-align: center;
+} */
+body{
+  overflow-x: hidden;
+}
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.title{
+  position: absolute;
+  color: white;
+  transform: translate(-50%,-50%);
+  margin-top: 5%;
+  font-size:xx-large;
+  left: 50%;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.home-view{
+  position: relative;
+  width: 100vw;
+}
+.home-img{
+  position: absolute;
+  width: 100%;
+}
+.login-view{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.TextField{
+  margin-bottom: 200px;
+}
+a{
+  color: inherit;
+  text-decoration: none;
+}
+.material-textfield{
+  width: 900px;
+  /* border: 1px solid #61dafb; */
+  margin-bottom: 20px;
+}
+.tweet-btn{
+  margin: 20px 0px;
+}
+.profile-view{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  height: fit-content;
+  border: 1px solid #61dafb;
+  padding: 20px 10px;
+  border-radius: 1rem;
+  box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.5);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

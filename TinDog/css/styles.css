@@ -12,14 +12,12 @@ body {
 /*Sections*/
 
 .coloured-section {
-  background-image: linear-gradient(
-    to right,
-    #051937,
-    #161739,
-    #251339,
-    #330d35,
-    #3e052f
-  );
+  background-image: linear-gradient(to right,
+      #051937,
+      #161739,
+      #251339,
+      #330d35,
+      #3e052f);
   color: #fff;
 }
 
@@ -157,19 +155,21 @@ p {
 
 /*Pricing Section*/
 
+
 #pricing {
   padding: 100px;
 }
 
 .card {
   height: 400px;
+  overflow: hidden;
   border-radius: 1em;
+  border: none;
 }
 
 .pricing-column {
   padding: 3% 2%;
 }
-
 .price-text {
   font-size: 2rem;
   line-height: 1.5;
@@ -181,7 +181,7 @@ p {
 }
 
 .popular,
-.popular > p {
+.popular>p {
   background-color: #ff4c68;
   color: #fff;
   border-radius: 1em;
@@ -197,20 +197,55 @@ p {
   width: 90%;
 }
 
+.popular-card {
+  filter: drop-shadow(1px 1px 20px rgba(0, 0, 0, 0.26));
+}
+
+.popular-card .card-header {
+  background-image: linear-gradient(to right, #051937, #161739, #251339, #330d35, #3e052f);
+  color: #fff;
+}
+
+.popular-card .card-body button {
+  background: linear-gradient(to right, #051937, #161739, #251339, #330d35, #3e052f);
+  color: #fff;
+}
+
+.popular-card .card-body button:hover {
+  background: linear-gradient(to left, #051937, #161739, #251339, #330d35, #3e052f);
+  color: #fff;
+}
+
 /*CTA Section*/
 
-=======
-
 /*Footer Section*/
-
-.social-icon {
-  margin: 20px 10px;
+footer {
+  background: linear-gradient(to right, #051937, #161739, #251339, #330d35, #3e052f);
+  padding: 20px;
 }
+
+footer p {
+  font-weight: 300;
+  color: #fff;
+}
+
+footer .social-icon {
+  color: #fff;
+  margin: 25px 15px;
+  font-size: 20px;
+}
+
+footer .social-icon:hover{
+  color: #f5e9b3;
+  text-decoration: none;
+}
+
 
 @media (max-width: 1028px) {
   #title {
     text-align: center;
   }
+
   .title-image {
     position: static;
     transform: rotate(0);
